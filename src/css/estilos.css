@@ -56,7 +56,11 @@ body {
 }
 
 .informacao-principal h1 {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.informacao-principal h2 {
+    font-size: 14px;
 }
 
 .informacao-principal .temperatura {
@@ -77,7 +81,9 @@ body {
 }
 
 .informacao-secundaria .umidade,
-.informacao-secundaria .velocidade-do-vento {
+.informacao-secundaria .velocidade-do-vento,
+.informacao-secundaria .sensacao-termica,
+.informacao-secundaria .visibilidade {
     display: flex;
     justify-content: space-between;
     align-items: center;
